@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+    background-color: #826e8b;
+}
+
+.container {
+    width: 990px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 40px;
+}
+
+.puzzle {
+    border: 2px solid #284355;
+}
+
+.puzzles {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 10px;
+}
+
+.boxes {
+    padding: 10px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.box {
+    border: 1px solid #2843552f;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.drop {
+    background-color: #284355;
+}
+
+.output {
+    background-color: #284355;
+}

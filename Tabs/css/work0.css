@@ -1,0 +1,39 @@
+@charset "utf-8";
+.container {
+    width: 700px;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+.tab-body, .tab-header__item {
+    border: 1px solid black;
+}
+
+.tab-body__item {
+    display: none;
+    min-height: 100px;
+}
+
+.tab-body__item.active {
+    display: block;
+    padding: 10px;
+}
+
+.tab-header__item {
+    display: inline-block;
+    padding: 10px 20px;
+    min-width: 70px;
+    text-align: center;
+    border-bottom: transparent;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    cursor: pointer;
+}
+
+.tab-header__item.active {
+    margin-bottom: 1px;
+    color: white;
+    background-color: blue;
+    border-bottom: 1px solid white;
+}

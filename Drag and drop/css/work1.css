@@ -1,0 +1,50 @@
+@charset "utf-8";
+* {
+    font-family: Noto Sans, sans-serif;
+}
+
+body {
+    width: 700px;
+    margin: 20px auto;
+    background-color: #f0ead2;
+}
+
+.animals {
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: repeat(2, 160px);
+    grid-gap: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.animal {
+    background-color: #a98467;
+    border: 2px solid #6c584c;
+}
+
+h3 {
+    text-align: center;
+    color: #6c584c;
+}
+
+.boxes {
+    margin: auto;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(2, 160px);
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #a98467;
+    border: 2px solid #6c584c;
+}
+
+.box-right {
+    background-color: #6c584c;
+}
